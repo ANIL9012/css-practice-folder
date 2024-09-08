@@ -1,0 +1,86 @@
+/* Grid Layout */
+.container{
+    display: grid;
+    /* grid-template-columns: 200px; */
+    grid-template-columns: repeat(2,1fr 1fr);
+    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-rows: 100px;
+    /* column-gap: 20px; */
+    /* row-gap: 20px; */
+    /* justify-items: start; */
+    /* align-items: end; */
+}
+.box{
+    /* display: flex; */
+    /* Yadi hame grid me width ya height
+     karni hoti hai to .box ya hamne 
+     jo bhi name diya hai uski width 
+     or heigth coment marni hoti hai */
+    /* width: 100px; */
+    /* height: 100px; */
+    /* margin-top: 20px; */
+    /* margin: 20px; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center;s */
+}
+.box1{
+    /* grid-row-start: 1; */
+    /* grid-row-end: 3; */
+    background-color: #ff0000;
+    font-size: 45px;
+    font-weight: bolder;
+    /* align-self:  center; */
+    /* color: #fff; */
+}
+.box2{
+    background-color: #891f77;
+    font-size: 45px;
+    color: #fff;
+}
+.box3{
+    background-color: #b641aa;
+    font-size: 45px;
+    font-weight: bolder;
+    /* color: #fff; */
+}
+.box4{
+    background-color: #651e7a;
+    font-size: 45px;
+    color: #fff;
+}
+.box5{
+    background-color: #0048ff;
+    font-size: 45px;
+    color: #fff;
+}
+.box6{
+    background-color: #0d7077;
+    font-size: 45px;
+    font-weight: bolder;
+    /* color: #fff; */
+}
+.box7{
+    background-color: #7b2f2fad;
+    font-size: 45px;
+    /* font-weight: bolder; */
+    color: #fff;
+}
+.box8{
+    background-color: #9dff00;
+    font-size: 45px;
+    font-weight: bolder;
+    /* color: #fff; */
+}
+.box9{
+    background-color: #ff9900;
+    font-size: 45px;
+    font-weight: bolder;
+    /* color: #fff; */
+}
+.box10{
+    background-color: #517213;
+    font-size: 45px;
+    color: #fff;
+}

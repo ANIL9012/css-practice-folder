@@ -1,0 +1,9 @@
+.box{
+    width: 500px;
+    margin: auto;
+    background-color: #ea928ce7;
+    border: 3px solid #7b830a;
+}
+.box p{
+    text-shadow: 10px 20px 0px #ff0000;
+}

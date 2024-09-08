@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    background-color: black;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    background-color: aquamarine;
+    color: red;
+}

@@ -1,0 +1,29 @@
+.main{
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.pagination{
+    text-align: center;
+    margin-top: 50px;
+}
+.pagination a{
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+    /* display: inline-block; */
+    border-radius: 5px;
+}
+li{
+    list-style: none;
+}
+.pagination a.active{
+    background-color: green;
+    /* font-size: 30px; */
+}
+.pagination a:hover:not(.active){
+    background-color: yellow;
+    color: red;
+}

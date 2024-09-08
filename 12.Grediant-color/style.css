@@ -1,0 +1,66 @@
+.box{
+    width: 888px;
+    height: 400px;
+    border: 10px solid gray;
+    margin: 100px auto;
+    /* padding: 70px 60px 0px 80px; */
+    padding: 50px 60px;
+    /* background-image: linear-gradient(35deg,red 15%,green 10%,blue 15%,gray 20%,yellow 20%,black 20%,violet,orange,blueviolet 90%); */
+    color: white;
+    line-height: 50px;
+    /* background-image: repeating-linear-gradient(300deg, red, green, yellow 20%); */
+    background-image: radial-gradient(circle at bottom, yellow 2%, blueviolet 5%, red, blue, yellowgreen);
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 10px solid orange;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+    background-image: conic-gradient(rgb(91, 228, 91) 45deg, rgb(201, 74, 74), rgb(92, 92, 237) 200deg, rgb(99, 8, 185) 90deg, rgb(248, 248, 40), yellowgreen, rgb(165, 81, 42), rgb(202, 141, 202));
+}
+.b1{
+    border: 10px solid greenyellow;
+    background-image: conic-gradient(green 45deg, red, blue 200deg, blueviolet 90deg, yellow, yellowgreen, brown, violet);
+}
+.b2{
+    background-image: conic-gradient(orange 90deg,green 50deg, blueviolet, yellow, yellowgreen 300deg, brown, violet);
+}
+.b3{
+    /* background-image: conic-gradient(orange,green, red 60deg, blue 60deg, blueviolet, yellow, yellowgreen, brown 100deg, violet); */
+}
+.box3{
+    margin: auto;
+    margin-top: 360px;
+    width: 300px;
+    height: 300px;
+    border: 4px solid green;
+    position: relative;
+    border-radius: 50%;
+    background-image: linear-gradient(red, green, blue, orange, black, blueviolet);
+}
+.box3{
+    transition: all 2s ease-in-out 0s;
+    animation: Anilkumar 1s 2s infinite;
+}
+.box3:hover{
+    transform: scale(0);
+}
+@keyframes Anilkumar{
+    form {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+
+}
+img{
+    margin-top: 100px;
+    margin-left: 90px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

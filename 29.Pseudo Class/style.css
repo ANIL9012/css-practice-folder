@@ -1,0 +1,50 @@
+/* Pseudo Class */
+p:hover{
+    background-color: black;
+    color: white;
+}
+input:focus{
+    background-color: black;
+    color: red;
+    font-size: 60px;
+}
+/* a{
+    text-decoration: none;
+    font-size: 80px;
+}  */
+a:active{
+    color: brown;
+}
+/* a:visited{
+    color: black;
+} */
+a:first-child{
+    background-color: #304406;
+    color: #fff;
+}
+  /* nth child me odd or even bhi use hota hai */
+ /* nth child me mathmaticul formula use bhi hota hai or even bhi use hota hai */
+
+a:nth-child(3n + 1){
+    background-color: #209038;
+    color: white;
+}
+/* Pseudo Element */
+p::first-line{
+    color: red;
+}
+p::first-letter{
+    color: #88ff00;
+}
+p::after{
+    content: "Anil Kumar";
+    color: rgb(0, 200, 255);
+}
+p::before{
+    content: "Anil Kumar";
+    color: #cf59d1;
+}
+p::selection{
+    background-color: black;
+    color: yellow;
+}

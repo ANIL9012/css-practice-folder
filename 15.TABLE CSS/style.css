@@ -1,0 +1,23 @@
+table,tr,th,td{
+    border: 2px solid red;
+    border-collapse: separate;
+    /* vertical-align: bottom; */
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+caption{
+    margin-top: 10px;
+    border: 2px dotted red;
+    caption-side: bottom;
+}
+th{
+    border: 4px solid green;
+}
+.we{
+    color: #0ccaec;
+    border: 3px double #23970966;
+    /* padding-left: 10px; */
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.item li a{
+    text-decoration: none;
+    padding: 20px 30px;
+    display: block;
+}
+.item li{
+    list-style: none;
+}
+.item{
+    background-color: red;
+}
+.item li a:hover{
+    background-color: green;
+    #fff
+}
+.navigation{
+    width: 800px;
+}
+
+/* index-3.HTML Style Work Start */
+
+.navbar{
+    width: 100%;
+}
+.unorder-list{
+    background-color: black;
+}
+.unorder-list li{
+    list-style: none;
+}
+.unorder-list li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+.unorder-list li a:hover{
+    background-color: blue;
+    color: #ff00dd;
+    font-size: 40px;
+}

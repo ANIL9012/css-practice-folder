@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    /* margin: 50px auto; */
+    width: 800px;
+}
+.main{
+    width: 800px;
+    /* float: left; */
+}
+img{
+    width: 200px;
+    float: left;
+}
+p{
+    width: 180px;
+    height: 180px;
+    float: left;
+    padding: 10px;
+    outline: 4px solid red;
+    outline-offset: 4px;
+    background-color: yellow;
+}

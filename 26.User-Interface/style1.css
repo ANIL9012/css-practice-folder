@@ -1,0 +1,9 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    /* resize: horizontal; */
+    /* resize: vertical; */
+    resize: both;
+    overflow: auto;
+}

@@ -1,0 +1,12 @@
+.one{
+    width: 300px;
+    height: 300px;
+    /* float: right; */
+    float: inline-end;
+}
+.two{
+    width: 300px;
+    height: 300px;
+    /* float: left; */
+    float: inline-start;
+}

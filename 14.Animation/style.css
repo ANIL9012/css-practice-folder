@@ -1,0 +1,111 @@
+.animation {
+    width: 200px;
+    height: 200px;
+    border: 20px solid red;
+    border-radius: 50%;
+    border-top: 20px solid rgb(173, 4, 252);
+    margin-top: 100px;
+    margin: auto;
+    animation: Anilkumar 1s 2s infinite;
+    background-color: rgb(113, 74, 74);
+}
+@keyframes Anilkumar{
+    form {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}
+img{
+    /* border: 10px solid green;
+    border-image: url(logo.jpg);
+    border-image-slice: 60;
+    border-image-outset: 10px;
+    border-image-repeat: repeat; */
+    width: 100px;
+    height: 100px;
+    margin-left: 48px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.animation-two{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 4px solid red;
+    border-radius: 10px;
+    animation: 2s linear 2s infinite alternate none running anshu;
+}
+@keyframes anshu{
+    from{
+        top: 0px;
+        left: 350px;
+        background-color: #ffcc00;
+        border: 10px solid #00ff62;
+        border-radius: 10px;
+    }
+    
+    to{
+       top: 0px;
+       left: 800px;
+       background-color: #00ffff;
+       border-radius: 15px;
+       border: 4px solid #ffcc00;
+    }
+}
+
+.animation-two-two{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 4px solid red;
+    border-radius: 10px;
+    animation: 2s linear 2s infinite alternate none running anshu-one;
+}
+@keyframes anshu-one{
+    from{
+        top: 200px;
+        left: 350px;
+        background-color: #00ff62;
+    }
+    
+    to{
+       top: 200px;
+       left: 800px;
+       background-color: blueviolet;
+    }
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: #00ff62;
+    border: 2px solid #4949ea;
+    border-radius: 50%;
+    position: relative;
+    animation: 10s ease-in-out 0s infinite alternate-reverse none running circleMovement;
+}
+@keyframes circleMovement{
+    0%{
+        top: 40%;
+        left: 50%;
+         background-color: #4949ea
+    }
+    30%{
+        top: 20%;
+       left: 80%;
+       background-color: black;
+    }
+    60%{
+        top: 10%;
+       left: 10%;
+       background-color: brown;
+    }
+    100%{
+        top: 20%;
+       left: 90%;
+    } 
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    /* max-width: 1140px; */
+    width: 100%;
+    margin: auto;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    background-color: black;
+}
+nav{
+    width: 50%;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+}
+a:hover{
+    background-color: yellowgreen;
+    /* color: red; */
+}
+li{
+    list-style: none;
+}
