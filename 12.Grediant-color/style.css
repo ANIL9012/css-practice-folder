@@ -8,8 +8,8 @@
     /* background-image: linear-gradient(35deg,red 15%,green 10%,blue 15%,gray 20%,yellow 20%,black 20%,violet,orange,blueviolet 90%); */
     color: white;
     line-height: 50px;
-    /* background-image: repeating-linear-gradient(300deg, red, green, yellow 20%); */
-    background-image: radial-gradient(circle at bottom, yellow 2%, blueviolet 5%, red, blue, yellowgreen);
+    /* background-image: repeating-linear-gradient(300deg, red 40%, green 60%, yellow 20%); */
+    background-image: radial-gradient(circle at top, yellow 2%, blueviolet 5%, red, blue, yellowgreen);
 }
 .box2{
     width: 200px;

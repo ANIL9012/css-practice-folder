@@ -27,7 +27,7 @@ a{
 }
 a:hover{
     background-color: yellowgreen;
-    /* color: red; */
+    color: red;
 }
 li{
     list-style: none;

@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+#left{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+    /* color: #fff; */
+    /* overflow: hidden; */
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    display: flex;
+    /* background-color: brown; */
+    padding: 0px 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    z-index: 999;
+    animation-name: mc;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-delay: 1,5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+#nav h1{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#left img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 99;
+    animation-name: rotateani;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    /* animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); */
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    /* display: none; */
+    opacity: 0;
+}
+#left>h1{
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    color: #fff;
+    z-index: 99;
+    text-align: right;
+    font-size: 60px;
+    line-height: 55px;
+    animation-name: bc;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-delay: 1s;
+    /* animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); */
+    /* animation-duration: initial; */
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background-color: rgb(57, 109, 66);
+    animation-name: anil;
+    animation-duration: 1s;
+    /* animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); */
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+#right{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    position: relative;
+}
+#img1{
+    position: absolute;
+    left: 40%;
+    width: 160px;
+    height: 190px;
+    transform: translate(-50%, 0);
+    object-fit: cover;
+    animation-name: anil;
+    animation-duration: 1s;
+    /* animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); */
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    /* transition: all 2s ease-in-out 2s; */
+
+}
+#img2{
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    width: 200px;
+    height: 290px;
+    transform: translate(0, -50%);
+    object-fit: cover;
+    animation-name: anil;
+    animation-duration: 1s;
+    /* animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); */
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+#img3{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width:160px;
+    height: 180px;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    animation-name: anil;
+    animation-duration: 1s;
+    /* animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); */
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+#right h1{
+    position: absolute;
+    right: -15%;
+    top: 40%;
+    font-size: 45px;
+    rotate: -90deg;
+}
+@keyframes anil {
+    0%{
+        transform: translateX(100%);
+        opacity: 5;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes rotateani {
+    0%{
+        transform: rotate(30deg) scale(1.4);
+        opacity: 0;
+    }
+    100%{
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+@keyframes bc {
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes mc {
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

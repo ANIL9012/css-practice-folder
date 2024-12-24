@@ -13,7 +13,6 @@ h1{
     color: black;
     padding: 8px 20px;
     text-decoration: none;
-    /* display: inline-block; */
     border-radius: 5px;
 }
 li{
@@ -21,7 +20,7 @@ li{
 }
 .pagination a.active{
     background-color: green;
-    /* font-size: 30px; */
+    font-size: 30px;
 }
 .pagination a:hover:not(.active){
     background-color: yellow;

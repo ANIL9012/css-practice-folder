@@ -23,6 +23,6 @@ body{
         background-color: blue;
     }
     div::after{
-        content: Large device;
+        content: large device;
     }
 }

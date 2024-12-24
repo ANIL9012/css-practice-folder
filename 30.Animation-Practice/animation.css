@@ -1,0 +1,54 @@
+/* div{
+    width: 150px;
+    height: 150px;
+    background-color: #1c9797;
+    animation: anil 8s linear 2s infinite reverse;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+}
+#ease{
+    animation-timing-function: ease;
+}
+#linear{
+    animation-timing-function: linear;
+}
+#ease-in{
+    animation-timing-function: ease-in;
+}
+#ease-in-out{
+    animation-timing-function: ease-out;
+}
+
+@keyframes anil{
+    0%{
+        background-color: red;
+        color: #000;
+        top: 200px;
+        left: 600px;
+    }
+    25%{
+        background-color: yellow;
+        color: #fff;
+        top: 150px;
+        left: 200px;
+    }
+    50%{
+        background-color: #971c87;
+        color: yellow;
+        top: 300px;
+        left: 400px;
+    }
+    75%{
+        background-color: green;
+        color: red;
+        top: 250px;
+        left: 100px;
+    }
+    100%{
+        background-color: #000;
+        color: #971c87;
+        top: 0px;
+        left: 0px;
+    }
+} */

@@ -1,0 +1,44 @@
+.container{
+    border: 4px solid #000;
+    /* padding: 0; */
+}
+.pink{
+    background-color: pink;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: #f9b006;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.black{
+    background-color: #000;
+}
+.green{
+    background-color: green;
+}
+.gray{
+    background-color: gray;
+}
+.row{
+    /* border: 2px solid green; */
+}
+.nav{
+    background-color: darkcyan;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    background-color: #f9b006;
+    color: #fff;
+}
+.jumbotron{
+    background-image: url(istockphoto-1488642368-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

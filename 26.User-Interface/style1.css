@@ -3,7 +3,7 @@
     height: 400px;
     background-color: gray;
     /* resize: horizontal; */
-    /* resize: vertical; */
-    resize: both;
+    resize: vertical;
+    /* resize: both; */
     overflow: auto;
 }

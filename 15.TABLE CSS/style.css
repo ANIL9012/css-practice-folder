@@ -1,4 +1,4 @@
-table,tr,th,td{
+table,td{
     border: 2px solid red;
     border-collapse: separate;
     /* vertical-align: bottom; */

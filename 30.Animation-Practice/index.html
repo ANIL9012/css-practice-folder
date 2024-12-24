@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <link rel="stylesheet" href="animation.css">
+
     <style>
         div{
             width: 100px;
             height: 100px;
             background-color: red;
-            /* border-radius: 50%; */
+            border-radius: 20px;
+            text-align: center;
             /* margin: auto; */
             position: relative;
             animation: Anil 8s linear 2s infinite reverse;
@@ -29,31 +33,42 @@
         @keyframes Anil{
             0%{
                 background-color: blue;
-                top: 200px;
+                top: 100px;
                 left: 500px;
+                color: red;
+                font-size: 12px;
             }
             25%{
                 background-color: red;
                 top: 0px;
                 left: 200px;
+                color: #ac0b96;
+                font-size: 25px;
             }
             50%{
                 background-color: yellow;
-                top: 200px;
+                top: 50px;
                 left: 200px;
+                color: #000;
+                font-size: 28px;
             }
             75%{
                 background-color: black;
-                top: 200px;
+                top: 50px;
                 right: 1000px;
+                color: #fff;
+                font-size: 30px;
             }
             100%{
                 background-color: green;
                 top: 0px;
                 left: 0px;
+                color: yellow;
+                font-size: 32;
             }
         }
     </style>
+
 </head>
 <body>
     <div id="ease">ease</div>

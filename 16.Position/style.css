@@ -10,6 +10,7 @@
     /* position: fixed; */
     position: sticky;
     top: 100px;
+    /* left: 10px; */
     /* background-color: red; */
     z-index: 1;
 }
