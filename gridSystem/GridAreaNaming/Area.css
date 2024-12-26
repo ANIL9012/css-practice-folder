@@ -1,0 +1,107 @@
+.container{
+    background-color: #eee;
+    margin:45px auto 0;
+    width: 700px;
+
+
+    display: grid;
+
+
+    grid-template-columns: repeat(3, 1fr);
+
+
+    grid-template-rows: 120px 60px 100px 400px 50px;
+    grid-gap: 15px;
+
+              /* Using grid Area  */
+   grid-template-areas: "header header header"
+                        "menu menu menu"
+                        "box1 box2 sidbar"
+                        "content content sidbar"
+                        "footer footer footer";
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.header{
+    background-color: orangered;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 25px;
+
+          /* Grid area using  */
+    grid-area: header;
+}
+.menu{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 25px;
+
+          /* Grid area using  */
+          grid-area: menu;
+}
+.box1{
+
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 25px;
+
+          /* Grid area using  */
+          grid-area: box1;
+}
+.box2{
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 25px;
+
+          /* Grid area using  */
+          grid-area: box2;
+}
+.sidbar{
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 25px;
+
+          /* Grid area using  */
+          grid-area: sidbar;
+}
+.content{
+    background-color: #7dcea0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 25px;
+
+          /* Grid area using  */
+          grid-area: content;
+}
+.footer{
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 25px;
+
+          /* Grid area using  */
+          grid-area: footer;
+}

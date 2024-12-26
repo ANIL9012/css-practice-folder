@@ -1,0 +1,84 @@
+.container{
+    background-color: #eee;
+    width: 700px;
+    /* margin: 70px 0 0 50px; */
+    margin: auto;
+
+    display: grid;
+    /* grid-template-columns: 100px auto 200px; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-rows: repeat(4,100px);
+    /* gap: 20px; */
+
+    grid-template-columns: repeat(3, 200px);
+
+               /* Row ke liye gap  */
+    /* grid-row-gap: 20px; */
+
+              /* Column ke liye gap  */
+    /* grid-column-gap: 15px; */
+
+     /* Row and column  ke liye ek sath grid gap   */
+
+     grid-gap: 20px 40px;
+
+     text-align: center;
+}
+h1{
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+}
+.items1{
+    background-color: orangered;
+    /* grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4; */
+
+    /* grid-row: 2/3;
+    grid-column: 3/4; */
+
+    /* grid-area: 2 / 3 / 3 / 4; */
+    /* grid-row: 1 / 4; */
+
+             /* Grid spanning  */
+
+    grid-column: 1 / -1;
+}
+.items2{
+    background-color: yellowgreen;
+    /* grid-row: 2 / ; */
+    /* grid-column: 1 / -1; */
+
+           /* Grid spanning  */
+    
+    grid-row: 2 / 6;
+}
+.items3{
+    background-color: slateblue;
+    grid-row: 2 / 5;
+}
+.items4{
+    background-color: hotpink;
+
+           /* Grid spanning  */
+
+    grid-row: 2 / 6;
+    grid-column: 3;
+}
+.items5{
+    background-color: royalblue;
+
+    /* grid-area: 1 / 2 / 2 / 3; */
+}
+.items6{
+    background-color: goldenrod;
+    /* grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2; */
+
+    /* grid-area: 1 / 1 / 1 / 4; */
+
+    grid-column: 1 / 4;
+}
