@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.boxes{
+    margin: 50px auto;
+}
+
+.box{
+    background-color: #e38826;
+    padding: 20px;
+    width: 230px;
+  
+}
+
+.box .icon-circle{
+    width: 30px;
+    height: 30px;
+    background-color: #5f5e5ec9;
+    border-radius: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.box .icon-circle i{
+    color: #f5b876;
+    margin-bottom: 10px;
+
+}
+
+.box h1{
+    color: #f0e8e8;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+.box p{
+    align-content: center;
+    color: #c2c1c1;
+    margin-bottom: 15px;
+
+}
+.box button{
+    background-color: #f0e8e8;
+    border-radius: 24px;
+    padding: 10px 20px;
+    border: 1px solid #f0e8e8;
+    color: #e38826;
+    /* margin-bottom: 35px; */
+
+}
+
+.boxes .box-1{
+    background-color: #006970;
+}
+
+.boxes .box-1 .icon-circle i{
+    color: #53adb3;
+}
+
+.boxes .box-1 button{
+    background-color: #f0e8e8;
+    border-radius: 24px;
+    padding: 10px 20px;
+    border: 1px solid #f0e8e8;
+    color: #1d7379;
+}
+.boxes .box-2{
+    background-color: #004241;
+}
+.boxes .box-2 .icon-circle i{
+    color: #f3ece4;
+}
+.boxes .box-2 button{
+    background-color: #f0e8e8;
+    border-radius: 24px;
+    padding: 10px 20px;
+    border: 1px solid #f0e8e8;
+    color: #004241;
+}
+
+@media (min-width:344px) and (max-width:390px){
+    .boxes{
+      display: flex;
+      flex-direction: column;
+      /* margin: auto; */
+      justify-content: center;
+    }
+    .box{
+      /* margin-bottom: 15px; */
+      width: 0px;
+    }
+    .boxes{
+        margin: 0px;
+    }
+}

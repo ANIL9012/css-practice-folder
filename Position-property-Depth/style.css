@@ -1,0 +1,18 @@
+div{
+    position: relative;
+    background-color: chartreuse;
+}
+
+ul{
+    background-color: crimson;
+    width: 400px;
+    height: 600px;
+    border: 2px solid cyan;
+    position: relative;
+}
+
+.li-one{
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
