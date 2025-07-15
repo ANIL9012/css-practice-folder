@@ -14,6 +14,8 @@ img{
     margin-left: 120px;
     border-radius: 50%;
 }
+
+/* use the some transform properties */
 .box:hover{
 /* transform: rotate(360deg); */
 /* transform: rotatex(360deg); */
